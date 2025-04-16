@@ -14,4 +14,11 @@ export const Primary: Story = {
   },
 };
 
+export const Secondary: Story = {
+  args: {
+    children: 'Secondary Button',
+    variant: 'secondary',
+  },
+};
+
 export default meta;
