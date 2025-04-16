@@ -15,8 +15,8 @@
   --color-primary-100: #ffe2e2;
   --color-primary-200: #ffd6a8;
   --color-primary-300: #ffb86a;
-  --color-primary-400: #ff8904;
   --color-primary-main: #ff8904;
+  --color-primary-500: #ff6900;
   --color-primary-600: #f54a00;
   --color-primary-700: #ca3500;
   --color-primary-800: #9f2d00;
@@ -38,7 +38,7 @@
   --color-info-main: #00bafe;
   --color-info-content: #042e49;
 
-  --color-success-main: ##00d390;
+  --color-success-main: #00d390;
   --color-success-content: #004c39;
 
   --color-warning-main: #fcb700;
