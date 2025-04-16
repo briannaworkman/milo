@@ -28,4 +28,12 @@ export const Outline: Story = {
   },
 };
 
+export const Link: Story = {
+  args: {
+    children: 'Link Button',
+    variant: 'link',
+    size: 'link',
+  },
+};
+
 export default meta;

@@ -11,13 +11,14 @@ export const buttonVariants = cva(
           'bg-secondary-main text-secondary-content shadow border border-secondary-main hover:bg-secondary-200',
         outline:
           'border border-base-content text-base-content shadow hover:bg-base-100',
-        link: 'text-primary underline-offset-4 hover:underline',
+        link: 'text-primary-main underline-offset-4 hover:underline',
       },
       size: {
         default: 'h-9 px-4 py-2',
         sm: 'h-8 rounded-md px-3 text-xs',
         lg: 'h-10 rounded-md px-8',
         icon: 'h-9 w-9',
+        link: 'h-9',
       },
     },
     defaultVariants: {
