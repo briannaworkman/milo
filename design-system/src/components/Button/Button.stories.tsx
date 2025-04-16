@@ -1,4 +1,4 @@
-import { Telescope } from 'lucide-react';
+import { Loader2, Telescope } from 'lucide-react';
 import Button from './Button';
 import { Meta, StoryObj } from '@storybook/react';
 
@@ -40,7 +40,6 @@ export const Link: Story = {
 export const Icon: Story = {
   args: {
     children: <Telescope />,
-    variant: 'primary',
     size: 'icon',
   },
 };
@@ -52,7 +51,17 @@ export const WithIcon: Story = {
         <Telescope /> Explore!
       </>
     ),
-    variant: 'primary',
+  },
+};
+
+export const Loading: Story = {
+  args: {
+    children: (
+      <>
+        <Loader2 className="animate-spin" /> Loading...
+      </>
+    ),
+    disabled: true,
   },
 };
 
