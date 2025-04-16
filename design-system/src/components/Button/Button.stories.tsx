@@ -21,4 +21,11 @@ export const Secondary: Story = {
   },
 };
 
+export const Outline: Story = {
+  args: {
+    children: 'Outline Button',
+    variant: 'outline',
+  },
+};
+
 export default meta;
