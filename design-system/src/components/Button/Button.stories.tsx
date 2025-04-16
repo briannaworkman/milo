@@ -1,3 +1,4 @@
+import { Telescope } from 'lucide-react';
 import Button from './Button';
 import { Meta, StoryObj } from '@storybook/react';
 
@@ -33,6 +34,25 @@ export const Link: Story = {
     children: 'Link Button',
     variant: 'link',
     size: 'link',
+  },
+};
+
+export const Icon: Story = {
+  args: {
+    children: <Telescope />,
+    variant: 'primary',
+    size: 'icon',
+  },
+};
+
+export const WithIcon: Story = {
+  args: {
+    children: (
+      <>
+        <Telescope /> Explore!
+      </>
+    ),
+    variant: 'primary',
   },
 };
 
