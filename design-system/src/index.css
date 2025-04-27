@@ -11,6 +11,18 @@
   --color-base-300: #15191e;
   --color-base-content: #ecf9ff;
 
+  --color-zinc-50: #fafafa;
+  --color-zinc-100: #f4f4f5;
+  --color-zinc-200: #e4e4e7;
+  --color-zinc-300: #d4d4d8;
+  --color-zinc-400: #9f9fa9;
+  --color-zinc-500: #71717b;
+  --color-zinc-600: #52525c;
+  --color-zinc-700: #3f3f46;
+  --color-zinc-800: #27272a;
+  --color-zinc-900: #18181b;
+  --color-zinc-950: #09090b;
+
   --color-primary-50: #fef2f2;
   --color-primary-100: #ffe2e2;
   --color-primary-200: #ffd6a8;
