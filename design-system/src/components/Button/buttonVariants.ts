@@ -10,10 +10,10 @@ export const buttonVariants = cva(
         secondary:
           'bg-secondary-main text-secondary-content shadow border border-secondary-main hover:bg-secondary-200',
         outline:
-          'border border-base-content text-base-content shadow hover:bg-base-100',
+          'border border-base-content text-base-content shadow hover:bg-zinc-700',
         link: 'text-primary-main underline-offset-4 hover:underline',
         ghost:
-          'text-base-content hover:bg-base-100 hover:text-accent-foreground',
+          'text-base-content hover:bg-zinc-700 hover:text-accent-foreground',
       },
       size: {
         default: 'h-9 px-4 py-2',
