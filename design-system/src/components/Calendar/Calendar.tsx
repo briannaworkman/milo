@@ -464,7 +464,10 @@ function YearGrid({
   const { goToMonth, selected } = useDayPicker();
 
   return (
-    <div className={cn('grid grid-cols-4 gap-y-2', className)} {...props}>
+    <div
+      className={cn('grid grid-cols-4 gap-y-2 text-base-content', className)}
+      {...props}
+    >
       {Array.from(
         { length: displayYears.to - displayYears.from + 1 },
         (_, i) => {
