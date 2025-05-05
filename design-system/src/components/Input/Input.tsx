@@ -41,7 +41,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
           )}
         />
         {endContent && (
-          <span className="pointer-events-none flex items-center text-muted-foreground">
+          <span className="flex items-center text-muted-foreground">
             {endContent}
           </span>
         )}
