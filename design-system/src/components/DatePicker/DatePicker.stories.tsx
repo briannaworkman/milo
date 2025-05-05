@@ -1,29 +1,25 @@
-import { useState } from 'react';
 import { Meta, StoryObj } from '@storybook/react';
-import DatePicker from './DatePicker';
+import InputDatePicker from './InputDatePicker';
 
-const DatePickerComponent = () => {
-  const [selected, setSelected] = useState<Date>(new Date('2025-04-02'));
-
-  return (
-    <DatePicker
-      calendarProps={{
-        mode: 'single',
-        required: true,
-        selected,
-        onSelect: setSelected,
-      }}
-    />
-  );
-};
-
-const meta: Meta<typeof DatePicker> = {
-  component: DatePickerComponent,
+const meta: Meta<typeof InputDatePicker> = {
+  component: InputDatePicker,
   title: 'Components/DatePicker',
 };
 
-type Story = StoryObj<typeof DatePicker>;
+type Story = StoryObj<typeof InputDatePicker>;
 
-export const Primary: Story = {};
+export const Default: Story = {
+  args: {
+    inputProps: {
+      placeholder: 'Select a date',
+    },
+  },
+};
+
+export const WithDefaultValue: Story = {
+  args: {
+    defaultValue: new Date('10-01-2023'),
+  },
+};
 
 export default meta;
